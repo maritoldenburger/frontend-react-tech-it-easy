@@ -1,33 +1,40 @@
+h1 {
+    padding: 10px 0;
+}
+
 .main-container {
     max-width: 1200px;
-    padding: 20px;
+    padding: 30px;
+    margin: auto;
 }
 
 .products-container {
     padding: 20px 0;
-    border: dotted 2px green;
     display: flex;
     flex-direction: row;
-    gap: 25px;
+    justify-content: space-between;
 }
 
 .product-tiles {
     border-radius: 3px;
     padding: 30px;
+    text-align: center;
 }
 
 .sold-container {
     background-color: #f0faf8;
     border: 1px solid #4f9b8e;
-    align-items: center;
+    color: #4f9b8e;
 }
 
 .original-stock-container {
     background-color: #f1f5f9;
-    border: 1px solid #a4bbc8;
+    border: 1px solid #7296a9;
+    color: #7296a9;
 }
 
 .current-stock-container {
     background-color: #fbefec;
-    border: 1px solid #db7d64;
+    border: 1px solid #d46547;
+    color: #d46547;
 }
