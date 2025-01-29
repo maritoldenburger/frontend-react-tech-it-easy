@@ -38,3 +38,43 @@ h1 {
     border: 1px solid #d46547;
     color: #d46547;
 }
+
+.best-selling-tv-container {
+    background-color: #edecec;
+    border: 1px dashed black;
+    border-radius: 3px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.best-selling-tv-container img {
+    max-width: 250px;
+}
+
+.best-selling-tv-info {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.best-selling-tv-info img {
+    width: 13px;
+}
+
+.tv-info-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+button {
+    margin: 30px 3px;
+    border-radius: 3px;
+    padding: 5px;
+}
