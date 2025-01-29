@@ -1,0 +1,33 @@
+.main-container {
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.products-container {
+    padding: 20px 0;
+    border: dotted 2px green;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.product-tiles {
+    border-radius: 3px;
+    padding: 30px;
+}
+
+.sold-container {
+    background-color: #f0faf8;
+    border: 1px solid #4f9b8e;
+    align-items: center;
+}
+
+.original-stock-container {
+    background-color: #f1f5f9;
+    border: 1px solid #a4bbc8;
+}
+
+.current-stock-container {
+    background-color: #fbefec;
+    border: 1px solid #db7d64;
+}
