@@ -25,7 +25,7 @@ function App() {
     return (
         <>
             <main className="main-container">
-                <h1>Tech It Easy Dashboard</h1>
+                <h1>📺 Tech It Easy Dashboard</h1>
                 <section>
                     <h2>Verkoopoverzicht</h2>
                     <div className="products-container">
