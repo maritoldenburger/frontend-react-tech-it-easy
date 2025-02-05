@@ -1,0 +1,106 @@
+h1 {
+    padding: 10px 0;
+}
+
+h2 {
+    padding: 10px 0;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.main-container {
+    max-width: 1200px;
+    padding: 30px;
+    margin: auto;
+}
+
+.products-container {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.product-tiles {
+    border-radius: 3px;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.brand-list {
+    padding-left: 20px;
+}
+
+.sold-container {
+    background-color: #f0faf8;
+    border: 1px solid #4f9b8e;
+    color: #4f9b8e;
+}
+
+.original-stock-container {
+    background-color: #f1f5f9;
+    border: 1px solid #7296a9;
+    color: #7296a9;
+}
+
+.current-stock-container {
+    background-color: #fbefec;
+    border: 1px solid #d46547;
+    color: #d46547;
+}
+
+.bestselling-tv-container {
+    background-color: #edecec;
+    border: 1px dashed black;
+    border-radius: 3px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.tv-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.bestselling-tv-container img {
+    max-width: 250px;
+}
+
+.tv-container img {
+    max-width: 250px;
+}
+
+.tv-info {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.tv-info img {
+    width: 13px;
+}
+
+.tv-info-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+button {
+    margin: 0 5px;
+    border-radius: 3px;
+    padding: 5px;
+}

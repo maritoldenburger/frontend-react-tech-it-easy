@@ -8,7 +8,17 @@
   -webkit-text-size-adjust: 100%;
 }
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
   font-family: 'Zen Kaku Gothic New', Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
+}
+
+img {
+    width: 100%;
 }
