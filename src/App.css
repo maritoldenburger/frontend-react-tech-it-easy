@@ -2,6 +2,15 @@ h1 {
     padding: 10px 0;
 }
 
+h2 {
+    padding: 10px 0;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 20px;
+}
+
 .main-container {
     max-width: 1200px;
     padding: 30px;
@@ -9,7 +18,7 @@ h1 {
 }
 
 .products-container {
-    padding: 20px 0;
+    padding: 10px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -19,6 +28,11 @@ h1 {
     border-radius: 3px;
     padding: 30px;
     text-align: center;
+}
+
+
+.brand-list {
+    padding-left: 20px;
 }
 
 .sold-container {
@@ -39,7 +53,7 @@ h1 {
     color: #d46547;
 }
 
-.tv-container {
+.bestselling-tv-container {
     background-color: #edecec;
     border: 1px dashed black;
     border-radius: 3px;
@@ -48,6 +62,18 @@ h1 {
     flex-direction: row;
     align-items: center;
     gap: 30px;
+}
+
+.tv-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.bestselling-tv-container img {
+    max-width: 250px;
 }
 
 .tv-container img {
@@ -70,11 +96,11 @@ h1 {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 8px;
 }
 
 button {
-    margin: 30px 3px;
+    margin: 0 5px;
     border-radius: 3px;
     padding: 5px;
 }

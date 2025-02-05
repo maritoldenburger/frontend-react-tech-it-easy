@@ -31,7 +31,7 @@ function bestForSportsFirst() {
         return b.refreshRate - a.refreshRate;
     })
 
-    console.log("Meest geschikt voor sport eerst");
+    console.log("Meest geschikt voor sport eerst", inventory);
 }
 
 function App() {
@@ -57,20 +57,20 @@ function App() {
                     </div>
                     <h2>Alle merken</h2>
                     <article>
-                        <ul>
+                        <ul className="brand-list">
                             {inventory.map((tv) => {
-                                return <li key={tv.type}>{tv.name}</li>
+                                return <li key={tv.type}>{tv.brand}</li>
                             })}
                         </ul>
                     </article>
                     <h2>Best verkochte tv</h2>
-                    <article className="tv-container">
+                    <article className="bestselling-tv-container">
                         <span className="tv-image">
                             <img src={bestSellingTv.sourceImg} alt="Onze best verkochte tv"/>
                         </span>
                         <div className="tv-info">
-                            <h2>{getNameTV(bestSellingTv)}</h2>
-                            <h2>{getPriceTV(bestSellingTv.price)}</h2>
+                            <h3>{getNameTV(bestSellingTv)}</h3>
+                            <h3>{getPriceTV(bestSellingTv.price)}</h3>
                             <p>{getScreenSizes(bestSellingTv.availableSizes)}</p>
                             <ul className="tv-info-list">
                                 <li><img src={check} alt="wel"/> wifi</li>
@@ -97,10 +97,10 @@ function App() {
                             <img src={tv.sourceImg} alt="Afbeelding van de tv"/>
                             </span>
                             <div className="tv-info">
-                                <h2>{getNameTV(tv)}</h2>
-                                <h2>{getPriceTV(tv.price)}</h2>
+                                <h3>{getNameTV(tv)}</h3>
+                                <h3>{getPriceTV(tv.price)}</h3>
                                 <p>{getScreenSizes(tv.availableSizes)}</p>
-                                <ul className="options-list">
+                                <ul className="tv-info-list">
                                     {tv.options.map((option) => {
                                         if (option.applicable === true) {
                                             return <li key={option.name}>
