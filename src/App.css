@@ -39,7 +39,7 @@ h1 {
     color: #d46547;
 }
 
-.best-selling-tv-container {
+.tv-container {
     background-color: #edecec;
     border: 1px dashed black;
     border-radius: 3px;
@@ -50,17 +50,17 @@ h1 {
     gap: 30px;
 }
 
-.best-selling-tv-container img {
+.tv-container img {
     max-width: 250px;
 }
 
-.best-selling-tv-info {
+.tv-info {
     display: flex;
     flex-direction: column;
     gap: 35px;
 }
 
-.best-selling-tv-info img {
+.tv-info img {
     width: 13px;
 }
 
